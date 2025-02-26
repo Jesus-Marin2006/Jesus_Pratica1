@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input type</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+   <h2>Caja de texto</h2>
+   <label for="name">Ingresa tu nombre: </label>
+   <input type="text">
+   <h2>Ingresa la contraseña</h2>
+   <input type="password"/>
+   <div>
+    <label for="pass">Password(8 caracteres minimo)</label>
+    <input type="password" id="pass" name="password" maxlength="8" required/>
+    <input type="password" id="pass" name="password" minlength="8"required/>
+   </div>
+   <p>
+    URL <input type="url" name="url_control" placeholder="cualquier link"/>
+   </p>
+   <p>
+   Mes: <input type="month" name="month_control"/>
+</p>
+<p>
+   Color Favorito : <input type="color" name="mColor_centro"/>
+</p>
+   <h2>
+insertar boton
+<input type="button">
+   </h2>
+   <h2>
+    insertar checkbox
+    <input type="checkbox">
+   </h2>
+   <h2>
+    insertar opcion
+    <input type="radio">
+   </h2>
+   <h2>
+    ingresa boton de enviar
+    <input type="submit">
+   </h2>
+   <h2>
+    insertar caja para fecha
+    <input type="date">
+   </h2>
+   <h2>
+    muestra un cronometro
+    <input type="time">
+   </h2>
+   <h2>
+    boton para subir archivo
+    <input type="file">
+   </h2>
+   <h2>
+    este es un enlace para una pagina
+    <input type="image" id="image" alt="login" src="imagenes/imagenes.jpn">
+   </h2>
+   <h2>
+    inserta una poplist para numeros
+    <input type="number">
+   </h2>
+   <h2>
+    inserta una poplist para numeros del 0-10
+    <input type="number" name="number" id="number" min="0" max="10">
+   </h2>
+</body>
+</html>
